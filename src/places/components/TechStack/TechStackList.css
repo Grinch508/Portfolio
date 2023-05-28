@@ -1,0 +1,17 @@
+h3 {
+    font-size: var(--font-large);
+    color: var(--txt-primary);
+}
+
+.tech-stack-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8vh; 
+    list-style: none;
+    height: 30vh;
+    border: solid var(--bg-special) 7px;
+    padding: 7em;
+}
+

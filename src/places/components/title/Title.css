@@ -1,0 +1,39 @@
+.title__h1 {
+  color: var(--txt-red);
+  font-size: var(--font-large);
+  letter-spacing: .125ch;
+  white-space: nowrap;
+  position: relative;
+  left: -25vw; /* Resetting the left position */
+  margin: 0 5% 0 0; /* Adjusting the margin */
+}
+
+.title__p {
+  position: relative;
+  left: -20vw;
+  color: var(--txt-primary);
+  font-size: var(--font-default);
+  text-align: left;
+}
+
+@media (min-width: 400px) {
+  .title__h1{
+    left: 50%;
+    transform: translateX(-50%); /* Centering the title horizontally */
+  }
+
+  .title__p {
+    left: 55%;
+    transform: translateX(-50%);
+  }
+}
+  span {
+    color: var(--txt-primary);
+  }
+  
+
+
+.title {
+ position: relative;
+ top: -50vh;
+}
